@@ -21,12 +21,12 @@
           <h3>FORMULARIO</h3>
           <div class="form-group">
             <label for="array_patron">Patron</label>
-            <input type="text" class="form-control" id="array_patron" name="array_patron"  placeholder="Ingrese los elementos del array patrón separados por un espacio">
+            <input type="text" class="form-control" id="array_patron" required name="array_patron"  placeholder="Ingrese los elementos del array patrón separados por un espacio">
             <small id="emailHelp" class="form-text text-muted">Los elementos del array  (Ejemplo: a b b b a).</small>
           </div>
           <div class="form-group">
             <label for="array_comparador">Array</label>
-            <input type="text" class="form-control" id="array_comparador" name="array_comparador" placeholder="Ingrese los elementos del array de comparación separados por un espacio">
+            <input type="text" class="form-control" required id="array_comparador" name="array_comparador" placeholder="Ingrese los elementos del array de comparación separados por un espacio">
             <small id="emailHelp" class="form-text text-muted">Los elementos del array (Ejemplo: perro gato pescado).</small>
           </div>
 

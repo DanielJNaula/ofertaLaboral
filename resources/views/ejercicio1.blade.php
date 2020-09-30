@@ -20,12 +20,12 @@
             @csrf
           <div class="form-group">
             <label for="array_numero">Array</label>
-            <input type="text" class="form-control" id="array_numero" name="array_numero"  placeholder="Ingrese los elementos del array">
+            <input type="text" class="form-control" required id="array_numero" name="array_numero"  placeholder="Ingrese los elementos del array">
             <small id="emailHelp" class="form-text text-muted">Los elementos del array deben ser separados por una , (Ejemplo: 1,3,2,5,4,6,8).</small>
           </div>
           <div class="form-group">
             <label for="suma_calculo">Suma</label>
-            <input type="text" class="form-control" id="suma_calculo" name="suma_calculo" placeholder="Ingrese el numero">
+            <input type="text" required class="form-control" id="suma_calculo" name="suma_calculo" placeholder="Ingrese el numero">
           </div>
 
           <button type="submit" class="btn btn-primary">Calcular</button>
