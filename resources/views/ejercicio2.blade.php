@@ -14,10 +14,11 @@
           Entrada: patrón = "abba", s = "perro gato gato perro" <br>
           Salida: verdadero <br>
         </p>
-
+<br><br>
 
         <form action="{{ route('ejercicio2') }}" method="POST" class="form-horizontal">
             @csrf
+          <h3>FORMULARIO</h3>
           <div class="form-group">
             <label for="array_patron">Patron</label>
             <input type="text" class="form-control" id="array_patron" name="array_patron"  placeholder="Ingrese los elementos del array patrón separados por un espacio">

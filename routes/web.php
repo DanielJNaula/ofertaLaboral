@@ -13,11 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/ejercicio1', 'Ejercicio1Controller@index')->name('index_ejercicio1');
+Route::get('/', 'Ejercicio1Controller@index')->name('index_ejercicio1');
 
 Route::post('/ejercicio1/enviar_datos', 'Ejercicio1Controller@calculoEjercicio1')->name('ejercicio1');
 

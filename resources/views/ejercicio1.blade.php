@@ -14,8 +14,8 @@
             Output: 2 <br>
             Explanation: Dos subarreglos no superpuestos que suman 2 [1,1], [1,1] <br>
         </p>
-
-
+<br><br>
+        <h3>FORMULARIO</h3>
         <form action="{{ route('ejercicio1') }}" method="POST" class="form-horizontal">
             @csrf
           <div class="form-group">
